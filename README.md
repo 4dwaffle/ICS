@@ -2,7 +2,7 @@
 (ICS = C# class in BUT FIT)
 
 ## Goal
-The goal was to create a usable and easily expandable application that meets the requirements of the assignment. The application must not crash or freeze. If the user fills in something incorrectly, he is notified with a validation message.
+The goal was to create a usable and easily expandable application that meets the requirements of the [assignment](https://github.com/nesfit/ICS/tree/master/Project) (in Czech though). The application must not crash or freeze. If the user fills in something incorrectly, he is notified with a validation message.
 
 ## Used technology
 - .NET 7.0
