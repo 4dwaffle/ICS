@@ -22,7 +22,7 @@ And 3 test projects:
 - DAL.Tests
 - BL.Tests
 
-## Basic functionality (from project assingment)
+## Basic functionality (from the project assingment)
 - The application must allow CRUD operations to be performed on all data.
 - The application is controlled from the perspective of the selected user when the application is launched.
 - User can create other users.
