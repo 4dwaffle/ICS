@@ -1,13 +1,15 @@
 # ICS - Activity tracking app
 (ICS = C# class in BUT FIT)
+
 ## Goal
-The goal is to create a usable and easily expandable application that meets the requirements of the assignment. The application must not crash or freeze. If the user fills in something incorrectly, he is notified with a validation message.
+The goal was to create a usable and easily expandable application that meets the requirements of the assignment. The application must not crash or freeze. If the user fills in something incorrectly, he is notified with a validation message.
 
 ## Used technology
 - .NET 7.0
 - MAUI
-- EntityFramework
+- Entity Framework Core
 - SQLite
+- Fody
 
 ## Architecture
 Solution is divided into 3 app projects:
@@ -20,30 +22,7 @@ And 3 test projects:
 - DAL.Tests
 - BL.Tests
 
-## Data
-### User
-- Name
-- Surname
-- Photo (URL)
-- (Activities)
-- (Projects)
-
-### Activity
-- Name
-- Start
-- End
-- Tag
-- Description
-
-### Project
-- Name
-- Desctiption
-- (Activities)
-- (Users)
-
-> () - relations between entities
-
-## Basic functionality
+## Basic functionality (from project assingment)
 - The application must allow CRUD operations to be performed on all data.
 - The application is controlled from the perspective of the selected user when the application is launched.
 - User can create other users.
